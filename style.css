@@ -1,0 +1,92 @@
+.one 
+{
+display: flex;
+justify-content: flex-end;
+margin: 40px;
+margin-right:  40px;
+padding-right: 10px;
+}
+.one a
+{
+    color: black;
+    margin-right: 15px;
+}
+.two{
+    text-align: center;
+    margin-top: 150px;
+}
+#recherche{
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.bouton{
+    margin-top: 25px ;
+}
+button{
+    width: 140px;
+    height: 35px;
+}
+.Sign
+{
+    background-color: rgb(85, 85, 255);
+    color: white;
+    padding: 4px;
+    border-radius: 10% 10%;
+
+}
+.micro
+{
+    position: relative;
+    right: 45px;
+    top: 8px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+    width: 100%;
+    margin: 5px;
+    background-color: rgba(105, 105, 105, 0.158);
+ 
+}
+.f-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.f-bottom a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 15px;
+}
+hr {
+    border: .5px solid rgba(0, 0, 0, 0.096);
+
+}
+@media screen and (max-width:452px)
+{
+    #recherche
+    {
+        width: 220px;
+        height: 25px;
+        margin-top: 10px;
+    }
+    .image {
+        width: 64% !important;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:452px)
+{
+    #recherche
+    {
+        width: 160px;
+        height: 16px;
+        margin-top: 10px;
+    }
+    .image {
+        width: 64% !important;
+        margin-left: 30px;
+    }
+}
